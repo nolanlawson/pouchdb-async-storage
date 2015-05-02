@@ -1,10 +1,9 @@
 'use strict';
 
 module.exports = {
-  name: 'localstorage',
-  require: 'localstorage-down',
+  name: 'asyncstorage',
   valid: function () {
-    return typeof localStorage !== 'undefined';
+    return typeof React !== 'undefined';
   },
   use_prefix: true
 };
