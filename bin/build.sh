@@ -8,8 +8,6 @@ MKDIRP=./node_modules/.bin/mkdirp
 $MKDIRP dist
 
 $BROWSERIFY index.js \
-    -r asyncstorage-down \
-    -r ./migrate-browser.js:../node_modules/pouchdb/lib/deps/migrate.js \
     -x pouchdb \
     | ./bin/es3ify.js \
     | $DEREQUIRE > ./dist/pouchdb.asyncstorage.js
