@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-async-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PouchDB adapter for AsyncStorageDOWN, for use in React Native",
   "main": "index.js",
   "scripts": {
