@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "asyncstorage-down": "0.0.2",
-    "pouchdb": "pouchdb/pouchdb#for-react-native"
+    "pouchdb": "^3.5.0"
   }
 }
