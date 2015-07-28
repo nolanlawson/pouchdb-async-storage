@@ -10,10 +10,6 @@ You should be able to just do:
 
     npm install --save pouchdb-async-storage
     
-For now, you also need a custom branch of PouchDB;
-
-    npm install --save pouchdb@pouchdb/pouchdb#for-react-native
-    
 Then require it after PouchDB:
 
 ```js
