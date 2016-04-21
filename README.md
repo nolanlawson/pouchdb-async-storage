@@ -1,6 +1,8 @@
 pouchdb-async-storage
 ====
 
+**Update: don't use this! Use this instead**: https://github.com/stockulus/pouchdb-asyncstorage-down
+
 Work in progress - get PouchDB working with React Native's AsyncStorage as a backend.
 
 Usage
